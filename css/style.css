@@ -1,0 +1,60 @@
+
+@font-face {
+    font-family: digital_mono_italic;
+    src: url(images/digital_mono_italic.ttf);
+}
+
+.ui-li-static.ui-collapsible > .ui-collapsible-heading {
+    margin: 0;
+}
+.ui-li-static.ui-collapsible {
+    padding: 0;
+}
+.ui-li-static.ui-collapsible > .ui-collapsible-heading > .ui-btn {
+    border-top-width: 0;
+}
+.ui-li-static.ui-collapsible > .ui-collapsible-heading.ui-collapsible-heading-collapsed > .ui-btn,
+.ui-li-static.ui-collapsible > .ui-collapsible-content {
+    border-bottom-width: 0;
+}
+
+.ui-li-static > .ui-collapsible-content {
+    padding: 0;
+}
+
+/* Panel */
+.ui-panel {
+    width: 14em;
+}
+
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.group_data_range, .unit_data_range {
+    width: 1.25em;
+    text-align: center !important;
+}
+
+.unit_data_shift {
+    width: 2.25em;
+    text-align: center !important;
+}
+
+.gridview td:hover,td.alt:hover {
+      background: #2B3856!important;
+      /*border-color: #E5E4E2!important;*/
+}
+
+#thumb_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    z-index: 1001;
+    background: black;
+    display: none;
+}
